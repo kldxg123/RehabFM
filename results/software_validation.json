@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "device": "cpu",
+  "modalities": 7,
+  "generated_records": 3,
+  "optimizer_updates": 1,
+  "exact_model_optimizer_restore": true,
+  "real_patient_records": 0
+}

@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500.000000" height="1602.068912" viewBox="0.000000 -1.034456 1500.000000 1602.068912">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 Z" fill="#262626"/></marker></defs>
+<rect x="0.000000" y="-1.034456" width="1500.000000" height="1602.068912" fill="#ffffff"/><rect width="1500" height="1600" fill="white"/>
+<rect x="10" y="10" width="1480" height="280" rx="5" fill="#f8f8f8" stroke="#777777" stroke-width="1.6"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="27" fill="#262626" text-anchor="start" font-weight="700"><tspan x="30" y="39.0">RehabFM hybrid pathway  |  Shared backbone and task-specific classifiers</tspan></text>
+<rect x="10" y="320" width="720" height="490" rx="5" fill="#f8f8f8" stroke="#777777" stroke-width="1.6"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="27" fill="#262626" text-anchor="start" font-weight="700"><tspan x="30" y="349.0">A  Modality-specific channel encoders</tspan></text>
+<rect x="750" y="320" width="740" height="490" rx="5" fill="#f8f8f8" stroke="#777777" stroke-width="1.6"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="27" fill="#262626" text-anchor="start" font-weight="700"><tspan x="770" y="349.0">B  Learned-query channel pooling  [E2]</tspan></text>
+<rect x="10" y="840" width="920" height="660" rx="5" fill="#f8f8f8" stroke="#777777" stroke-width="1.6"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="27" fill="#262626" text-anchor="start" font-weight="700"><tspan x="30" y="869.0">C  Conditional temporal Transformer  [E1]</tspan></text>
+<rect x="430" y="900" width="475" height="465" rx="5" fill="#ededed" stroke="#777777" stroke-width="1.6"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="27" fill="#262626" text-anchor="start" font-weight="700"><tspan x="450" y="929.0">Three pre-LN blocks</tspan></text>
+<rect x="960" y="840" width="530" height="660" rx="5" fill="#f8f8f8" stroke="#777777" stroke-width="1.6"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="27" fill="#262626" text-anchor="start" font-weight="700"><tspan x="980" y="869.0">D  Descriptor and hybrid readout</tspan></text>
+<polyline points="210,122 250,122" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="430,122 470,122" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="650,122 690,122" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="910,122 950,122" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1090,122 1130,122" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1230,122 1270,122" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="120,166 120,231 280,231" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="720,231 1180,231 1180,166" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="205,436 205,457" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="205,499 205,516" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="205,558 205,575" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="205,617 205,634" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="205,676 205,700" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="565,436 565,480" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="565,545 565,594" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="565,659 565,700" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="375,721 435,721" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="925,450 925,495 1078,495" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1290,450 1290,495 1112,495" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1095,512 1095,530 1145,530 1145,545" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="895,615 895,650" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1145,615 1145,650" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1370,615 1370,650" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1005,722 1005,750" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1230,771 1250,771 1250,765 1270,765" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="85,981 85,1020" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="195,981 195,1020" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="305,981 305,1020" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="195,1078 195,1115" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="195,1173 195,1190" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="195,1325 195,1290" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="355,1247 400,1247 400,945 625,945 625,955" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="625,995 625,1007" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="625,1090 625,1098" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="625,945 865,945 865,1115 642,1115" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="625,1132 625,1155" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="625,1195 625,1220" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="625,1286 625,1303" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="625,1143 835,1143 835,1320 642,1320" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="625,1337 625,1368 670,1368 670,1400" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1225,981 1225,1015" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1225,1081 1225,1100 1045,1100 1045,1120" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1225,1081 1225,1100 1165,1100 1165,1120" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1225,1081 1225,1100 1285,1100 1285,1120" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1225,1081 1225,1100 1405,1100 1405,1120" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1045,1185 1045,1230" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1165,1185 1165,1230" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1285,1185 1285,1230" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1405,1185 1405,1230" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1120,1355 1160,1355" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1310,1285 1310,1325" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<polyline points="1310,1385 1310,1400 1225,1400 1225,1420" fill="none" stroke="#262626" stroke-width="2" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="30" y="78" width="180" height="88" fill="#f2f2f2" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="120.0" y="103.28">Available</tspan><tspan x="120.0" y="130.16">waveforms /</tspan><tspan x="120.0" y="157.04000000000002">coordinates</tspan></text>
+<rect x="250" y="78" width="180" height="88" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#262626" text-anchor="middle" font-weight="700"><tspan x="340.0" y="116.5">A  Modality</tspan><tspan x="340.0" y="144.5">encoders</tspan></text>
+<rect x="470" y="78" width="180" height="88" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#262626" text-anchor="middle" font-weight="700"><tspan x="560.0" y="116.5">B  Channel</tspan><tspan x="560.0" y="144.5">attention</tspan></text>
+<rect x="690" y="78" width="220" height="88" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#262626" text-anchor="middle" font-weight="700"><tspan x="800.0" y="116.5">C  Conditional</tspan><tspan x="800.0" y="144.5">Transformer</tspan></text>
+<rect x="950" y="78" width="140" height="88" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#262626" text-anchor="middle" font-weight="700"><tspan x="1020.0" y="116.5">D  Neural F</tspan><tspan x="1020.0" y="144.5">256-D</tspan></text>
+<rect x="1130" y="78" width="100" height="88" fill="#eeeeee" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#262626" text-anchor="middle" font-weight="700"><tspan x="1180.0" y="116.5">H</tspan><tspan x="1180.0" y="144.5">[S; F]</tspan></text>
+<rect x="1270" y="78" width="200" height="88" fill="#eeeeee" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1370.0" y="103.28">Task-specific</tspan><tspan x="1370.0" y="130.16">ExtraTrees</tspan><tspan x="1370.0" y="157.04000000000002">300 trees → Kd</tspan></text>
+<rect x="280" y="205" width="440" height="52" fill="#eeeeee" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="500.0" y="239.16">Task-specific statistical descriptor S</tspan></text>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1095.0" y="271.16">Same H route: 22 external tasks + the in-house task</tspan></text>
+<rect x="35" y="382" width="340" height="54" fill="#f2f2f2" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="205.0" y="403.72">EEG / EMG / ECG / EDA</tspan><tspan x="205.0" y="430.6">IMU / FORCE</tspan></text>
+<rect x="435" y="382" width="260" height="54" fill="#f2f2f2" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="565.0" y="403.72">Coordinate input</tspan><tspan x="565.0" y="430.6">SKEL: 300 samples</tspan></text>
+<rect x="35" y="457" width="340" height="42" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="205.0" y="486.16">Conv1d 1 → 32  |  k7, s4</tspan></text>
+<rect x="35" y="516" width="340" height="42" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="205.0" y="545.16">Conv1d 32 → 64  |  k5, s2</tspan></text>
+<rect x="35" y="575" width="340" height="42" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="205.0" y="604.16">Conv1d 64 → 64  |  k3, s2</tspan></text>
+<rect x="35" y="634" width="340" height="42" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="205.0" y="663.16">Conv1d 64 → 64  |  k3, s2</tspan></text>
+<rect x="35" y="700" width="340" height="42" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="205.0" y="729.16">Temporal average pool</tspan></text>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="205.0" y="770.7199999999999">Each Conv: GroupNorm(8)</tspan><tspan x="205.0" y="797.5999999999999">followed by GELU</tspan></text>
+<rect x="435" y="480" width="260" height="65" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="565.0" y="507.22">Linear 300 → 64</tspan><tspan x="565.0" y="534.1">GELU</tspan></text>
+<rect x="435" y="594" width="260" height="65" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="565.0" y="621.2199999999999">Linear 64 → 64</tspan><tspan x="565.0" y="648.0999999999999">GELU</tspan></text>
+<rect x="435" y="700" width="260" height="80" fill="#f2f2f2" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="565.0" y="734.7199999999999">Channel embeddings</tspan><tspan x="565.0" y="761.5999999999999">per window: C × 64</tspan></text>
+<rect x="780" y="390" width="290" height="60" fill="#f2f2f2" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="925.0" y="414.72">Channel embeddings</tspan><tspan x="925.0" y="441.6">from A: C × 64</tspan></text>
+<rect x="1120" y="390" width="340" height="60" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1290.0" y="414.72">Ordered sin/cos code</tspan><tspan x="1290.0" y="441.6">× learned modality gain</tspan></text>
+<ellipse cx="1095.0" cy="495.0" rx="17.0" ry="17.0" fill="white" stroke="#262626" stroke-width="1.8"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="27" fill="#262626" text-anchor="middle"><tspan x="1095.0" y="504.18">+</tspan></text>
+<rect x="780" y="545" width="230" height="70" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="895.0" y="574.7199999999999">8 learned queries</tspan><tspan x="895.0" y="601.5999999999999">Q = Q₀ WQ</tspan></text>
+<rect x="1045" y="545" width="200" height="70" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1145.0" y="574.7199999999999">K = E WK</tspan><tspan x="1145.0" y="601.5999999999999">V = E WV</tspan></text>
+<rect x="1280" y="545" width="180" height="70" fill="#f2f2f2" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1370.0" y="574.7199999999999">Valid-channel</tspan><tspan x="1370.0" y="601.5999999999999">mask M</tspan></text>
+<rect x="780" y="650" width="680" height="72" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1120.0" y="680.7199999999999">Per head: softmax(QKᵀ / √16 + M) V</tspan><tspan x="1120.0" y="707.5999999999999">Concat 4 heads → output projection → 8 × 64</tspan></text>
+<rect x="780" y="750" width="450" height="42" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1005.0" y="779.16">Concat → Linear 512 → 64</tspan></text>
+<rect x="1270" y="735" width="190" height="60" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1365.0" y="759.7199999999999">LayerNorm</tspan><tspan x="1365.0" y="786.5999999999999">W × 64</tspan></text>
+<rect x="35" y="915" width="100" height="66" fill="#eeeeee" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="85.0" y="942.7199999999999">Modality</tspan><tspan x="85.0" y="969.5999999999999">16-D</tspan></text>
+<rect x="145" y="915" width="100" height="66" fill="#eeeeee" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="195.0" y="942.7199999999999">Site</tspan><tspan x="195.0" y="969.5999999999999">16-D</tspan></text>
+<rect x="255" y="915" width="100" height="66" fill="#eeeeee" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="305.0" y="942.7199999999999">Dataset</tspan><tspan x="305.0" y="969.5999999999999">16-D</tspan></text>
+<rect x="35" y="1020" width="320" height="58" fill="#eeeeee" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="195.0" y="1043.72">Concat 48-D</tspan><tspan x="195.0" y="1070.6000000000001">Linear 48 → 64</tspan></text>
+<rect x="35" y="1115" width="320" height="58" fill="#eeeeee" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="195.0" y="1138.72">[COND]: learned 1 × 64</tspan><tspan x="195.0" y="1165.6000000000001">Test E1: replace by zero</tspan></text>
+<rect x="35" y="1190" width="320" height="100" fill="#f2f2f2" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="195.0" y="1221.28">Prepend [COND]</tspan><tspan x="195.0" y="1248.16">(1 + W) × 64; W ≤ 12</tspan><tspan x="195.0" y="1275.04">Carry window-validity mask</tspan></text>
+<rect x="35" y="1325" width="320" height="65" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="195.0" y="1352.22">Window tokens from B</tspan><tspan x="195.0" y="1379.1000000000001">+ learned time positions</tspan></text>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="210.0" y="1423.28">Unseen dataset: code = 0.</tspan><tspan x="210.0" y="1450.16">Condition token is separate;</tspan><tspan x="210.0" y="1477.04">not added to every window.</tspan></text>
+<rect x="475" y="955" width="300" height="40" fill="#FFFFFF" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="625.0" y="983.16">LayerNorm</tspan></text>
+<rect x="475" y="1007" width="300" height="83" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="625.0" y="1029.78">Self-attention: 4 heads</tspan><tspan x="625.0" y="1056.66">Q/K/V projections</tspan><tspan x="625.0" y="1083.54">Dropout 0.3</tspan></text>
+<ellipse cx="625.0" cy="1115.0" rx="17.0" ry="17.0" fill="white" stroke="#262626" stroke-width="1.8"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="27" fill="#262626" text-anchor="middle"><tspan x="625.0" y="1124.18">+</tspan></text>
+<rect x="475" y="1155" width="300" height="40" fill="#FFFFFF" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="625.0" y="1183.16">LayerNorm</tspan></text>
+<rect x="475" y="1220" width="300" height="66" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="625.0" y="1247.72">FFN: 64 → 256 → 64</tspan><tspan x="625.0" y="1274.6000000000001">ReLU; dropout 0.3</tspan></text>
+<ellipse cx="625.0" cy="1320.0" rx="17.0" ry="17.0" fill="white" stroke="#262626" stroke-width="1.8"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="27" fill="#262626" text-anchor="middle"><tspan x="625.0" y="1329.18">+</tspan></text>
+<rect x="450" y="1400" width="440" height="72" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="670.0" y="1430.72">Final LayerNorm → remove [COND]</tspan><tspan x="670.0" y="1457.6000000000001">Zero invalid windows → Tm</tspan></text>
+<rect x="990" y="915" width="470" height="66" fill="#f2f2f2" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1225.0" y="942.7199999999999">Tm: W × 64</tspan><tspan x="1225.0" y="969.5999999999999">zm = LayerNorm(masked mean of Tm)</tspan></text>
+<rect x="990" y="1015" width="470" height="66" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1225.0" y="1042.72">Mean across available modalities</tspan><tspan x="1225.0" y="1069.6000000000001">{zm, Tm} → {z, T}</tspan></text>
+<rect x="990" y="1120" width="110" height="65" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1045.0" y="1147.22">z</tspan><tspan x="1045.0" y="1174.1000000000001">64-D</tspan></text>
+<rect x="1110" y="1120" width="110" height="65" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1165.0" y="1147.22">mean(T)</tspan><tspan x="1165.0" y="1174.1000000000001">64-D</tspan></text>
+<rect x="1230" y="1120" width="110" height="65" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1285.0" y="1147.22">std(T)</tspan><tspan x="1285.0" y="1174.1000000000001">64-D</tspan></text>
+<rect x="1350" y="1120" width="110" height="65" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1405.0" y="1147.22">max(T)</tspan><tspan x="1405.0" y="1174.1000000000001">64-D</tspan></text>
+<rect x="990" y="1230" width="470" height="55" fill="#e0e0e0" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1225.0" y="1265.66">Concatenate → frozen neural F: 256-D</tspan></text>
+<rect x="990" y="1325" width="130" height="60" fill="#eeeeee" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1055.0" y="1363.16">Task S</tspan></text>
+<rect x="1160" y="1325" width="300" height="60" fill="#eeeeee" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1310.0" y="1363.16">Concat: H = [S; F]</tspan></text>
+<rect x="990" y="1420" width="470" height="65" fill="#eeeeee" stroke="#262626" stroke-width="1.5"/>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="1225.0" y="1447.22">Variance filter → StandardScaler</tspan><tspan x="1225.0" y="1474.1000000000001">ExtraTrees (300) → Kd labels</tspan></text>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="750.0" y="1533.16">E1: remove conditioning information.  E2: replace learned queries with official channel Transformer + masked mean.</tspan></text>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="750.0" y="1565.16">Shared temporal weights process each modality separately.  F statistics retain zero padding; std uses ddof = 0.</tspan></text>
+<text font-family="Arial,Helvetica,sans-serif" font-size="24" fill="#262626" text-anchor="middle"><tspan x="750.0" y="1594.16">Panels A–D expand the main path; they are not extra stages.  Interventions mark controlled tests, not demonstrated gains.</tspan></text>
+</svg>

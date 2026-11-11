@@ -1,0 +1,24 @@
+dataset,used_modalities,published_source_cohort,project_train_records,project_query_records,source_reference,evidence
+GaitPDB,FORCE,93 PD; 73 healthy,218,63,6,https://physionet.org/content/gaitpdb/1.0.0/
+FoG,"ECG, EDA, EEG, EMG, IMU",12 PD,121,50,7,https://data.mendeley.com/datasets/r8gmbtv7w2/3
+U-Limb (MHH),EMG,20 stroke; 20 healthy (MHH),219,62,8,https://pmc.ncbi.nlm.nih.gov/articles/PMC8212873/
+GAITEX,IMU,19 healthy,216,60,9,https://www.nature.com/articles/s41597-025-06439-x.pdf
+PHYTMO,IMU,30 healthy,38,276,10,https://pmc.ncbi.nlm.nih.gov/articles/PMC9166805/
+PTE,IMU,5 volunteers; patient status NR,107,26,11,https://archive.ics.uci.edu/dataset/730
+MultimodalGait,"EEG, EMG",59 healthy,131,35,12,https://physionet.org/content/multimodal-gait-dataset/1.0.0/
+GaitNDD,FORCE,15 PD; 20 HD; 13 ALS; 16 healthy,392,101,13,https://physionet.org/content/gaitndd/1.0.0/
+ClinicalGait,IMU,143 neurological; 44 orthopedic; 73 healthy,363,89,14,https://www.nature.com/articles/s41597-025-05959-w.pdf
+PD Turning,IMU,35 PD,385,112,15,https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.832463/full
+GaitRec,FORCE,"2,084 patients; 211 healthy†",372,93,16,https://pmc.ncbi.nlm.nih.gov/articles/PMC7217853/
+MovePort,"EMG, FORCE, IMU",24 healthy; 1 spastic paraplegia,176,58,17,https://pubmed.ncbi.nlm.nih.gov/39024074/
+UL-RED,SKEL,10 healthy,352,86,18,https://www.nature.com/articles/s41597-025-05099-1.pdf
+HS-Stroke,EEG,14 chronic stroke,359,91,19,https://www.nature.com/articles/s41597-026-07742-x
+Stroke EEG,EEG,50 acute stroke,200,50,20,https://www.nature.com/articles/s41597-023-02787-8.pdf
+LLMI,EEG,27 stroke,330,101,21,https://www.nature.com/articles/s41597-025-04618-4.pdf
+PSUL,"EMG, SKEL",10 stroke; 10 healthy,78,27,22,https://pmc.ncbi.nlm.nih.gov/articles/PMC12675522/
+ULTRA-MoCap,"EMG, IMU",13 healthy,245,48,23,https://www.nature.com/articles/s41597-026-06687-5_reference.pdf
+Nordic,"EMG, SKEL",24 PD (published source),135,40,24,https://pmc.ncbi.nlm.nih.gov/articles/PMC12695891/
+HipOA,SKEL,106 hip OA; 80 healthy (source collection),290,73,25,https://pmc.ncbi.nlm.nih.gov/articles/PMC9276684/
+MultiGaitPosture,SKEL,14 healthy,239,67,26,https://physionet.org/content/multi-gait-posture/1.0.0/
+StrokeRehab-DepthIMU,SKEL,128 participants; patient status NR,503,123,27,https://data.mendeley.com/datasets/ygpdzx52g2/1
+In-house,"EEG, EMG, IMU",29 patients: 19 training; 10 test,281,163,Institutional cohort,Not publicly distributed

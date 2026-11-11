@@ -1,0 +1,473 @@
+{
+  "note": "Aggregate tables only. Table 1 has source cohorts and project records; remaining tables have aggregate outcomes. Table 2 continuation is a separate, richer-input protocol. No patient-level arrays.",
+  "tables": [
+    [
+      [
+        "Dataset (reference)",
+        "Inputs used",
+        "Published source cohort",
+        "Project records train / query"
+      ],
+      [
+        "GaitPDB (6)",
+        "FORCE",
+        "93 PD; 73 healthy",
+        "218 / 63"
+      ],
+      [
+        "FoG (7)",
+        "ECG, EDA, EEG, EMG, IMU",
+        "12 PD",
+        "121 / 50"
+      ],
+      [
+        "U-Limb (MHH) (8)",
+        "EMG",
+        "20 stroke; 20 healthy (MHH)",
+        "219 / 62"
+      ],
+      [
+        "GAITEX (9)",
+        "IMU",
+        "19 healthy",
+        "216 / 60"
+      ],
+      [
+        "PHYTMO (10)",
+        "IMU",
+        "30 healthy",
+        "38 / 276"
+      ],
+      [
+        "PTE (11)",
+        "IMU",
+        "5 volunteers; patient status NR",
+        "107 / 26"
+      ],
+      [
+        "MultimodalGait (12)",
+        "EEG, EMG",
+        "59 healthy",
+        "131 / 35"
+      ],
+      [
+        "GaitNDD (13)",
+        "FORCE",
+        "15 PD; 20 HD; 13 ALS; 16 healthy",
+        "392 / 101"
+      ],
+      [
+        "ClinicalGait (14)",
+        "IMU",
+        "143 neurological; 44 orthopedic; 73 healthy",
+        "363 / 89"
+      ],
+      [
+        "PD Turning (15)",
+        "IMU",
+        "35 PD",
+        "385 / 112"
+      ],
+      [
+        "GaitRec (16)",
+        "FORCE",
+        "2,084 patients; 211 healthy†",
+        "372 / 93"
+      ],
+      [
+        "MovePort (17)",
+        "EMG, FORCE, IMU",
+        "24 healthy; 1 spastic paraplegia",
+        "176 / 58"
+      ],
+      [
+        "UL-RED (18)",
+        "SKEL",
+        "10 healthy",
+        "352 / 86"
+      ],
+      [
+        "HS-Stroke (19)",
+        "EEG",
+        "14 chronic stroke",
+        "359 / 91"
+      ],
+      [
+        "Stroke EEG (20)",
+        "EEG",
+        "50 acute stroke",
+        "200 / 50"
+      ],
+      [
+        "LLMI (21)",
+        "EEG",
+        "27 stroke",
+        "330 / 101"
+      ],
+      [
+        "PSUL (22)",
+        "EMG, SKEL",
+        "10 stroke; 10 healthy",
+        "78 / 27"
+      ],
+      [
+        "ULTRA-MoCap (23)",
+        "EMG, IMU",
+        "13 healthy",
+        "245 / 48"
+      ],
+      [
+        "Nordic (24)",
+        "EMG, SKEL",
+        "24 PD (published source)",
+        "135 / 40"
+      ],
+      [
+        "HipOA (25)",
+        "SKEL",
+        "106 hip OA; 80 healthy (source collection)",
+        "290 / 73"
+      ],
+      [
+        "MultiGaitPosture (26)",
+        "SKEL",
+        "14 healthy",
+        "239 / 67"
+      ],
+      [
+        "StrokeRehab-DepthIMU (27)",
+        "SKEL",
+        "128 participants; patient status NR",
+        "503 / 123"
+      ],
+      [
+        "In-house",
+        "EEG, EMG, IMU",
+        "29 patients: 19 training; 10 test",
+        "281 / 163"
+      ]
+    ],
+    [
+      [
+        "Method",
+        "External correct",
+        "Acc. (%)",
+        "Mean BA (%)",
+        "Mean F1 (%)",
+        "In-house correct"
+      ],
+      [
+        "Majority",
+        "665/1731",
+        "38.42",
+        "33.92",
+        "21.94",
+        "6/10"
+      ],
+      [
+        "Ridge",
+        "887/1731",
+        "51.24",
+        "56.48",
+        "54.39",
+        "9/10"
+      ],
+      [
+        "RBF SVM",
+        "897/1731",
+        "51.82",
+        "53.60",
+        "48.38",
+        "8/10"
+      ],
+      [
+        "Random forest",
+        "999/1731",
+        "57.71",
+        "61.66",
+        "59.33",
+        "9/10"
+      ],
+      [
+        "ExtraTrees S",
+        "1012/1731",
+        "58.46",
+        "63.08",
+        "60.23",
+        "9/10"
+      ],
+      [
+        "CNN pooling",
+        "885/1731",
+        "51.13",
+        "57.10",
+        "53.42",
+        "9/10"
+      ],
+      [
+        "CNN–BiLSTM",
+        "889/1731",
+        "51.36",
+        "57.18",
+        "53.48",
+        "9/10"
+      ],
+      [
+        "CNN–Transformer",
+        "898/1731",
+        "51.88",
+        "57.14",
+        "53.16",
+        "9/10"
+      ],
+      [
+        "RehabFM F",
+        "793/1731",
+        "45.81",
+        "49.00",
+        "46.26",
+        "8/10"
+      ],
+      [
+        "RehabFM H",
+        "1004/1731",
+        "58.00",
+        "62.42",
+        "59.87",
+        "9/10"
+      ],
+      [
+        "Task-routed MIX",
+        "1021/1731",
+        "58.98",
+        "63.18",
+        "60.33",
+        "9/10"
+      ],
+      [
+        "DeepSense (adapted)",
+        "699/1731",
+        "40.38",
+        "44.83",
+        "35.71",
+        "6/10"
+      ],
+      [
+        "LMF (adapted)",
+        "844/1731",
+        "48.76",
+        "53.96",
+        "50.37",
+        "9/10"
+      ],
+      [
+        "MulT (adapted)",
+        "829/1731",
+        "47.89",
+        "53.69",
+        "49.83",
+        "8/10"
+      ],
+      [
+        "UniTS (adapted)",
+        "872/1731",
+        "50.38",
+        "54.13",
+        "51.30",
+        "9/10"
+      ],
+      [
+        "CGMV-EGR (unmeasured)",
+        "—",
+        "—",
+        "—",
+        "—",
+        "—"
+      ]
+    ],
+    [
+      [
+        "Method",
+        "External correct",
+        "Acc. (%)",
+        "Mean BA (%)",
+        "Mean F1 (%)",
+        "In-house correct"
+      ],
+      [
+        "Majority",
+        "665/1731",
+        "38.42",
+        "33.92",
+        "21.94",
+        "6/10"
+      ],
+      [
+        "Ridge",
+        "1184/1731",
+        "68.40",
+        "68.88",
+        "67.28",
+        "9/10"
+      ],
+      [
+        "RBF SVM",
+        "1268/1731",
+        "73.25",
+        "67.95",
+        "64.05",
+        "8/10"
+      ],
+      [
+        "Random forest",
+        "1348/1731",
+        "77.87",
+        "73.75",
+        "72.00",
+        "9/10"
+      ],
+      [
+        "ExtraTrees S",
+        "1371/1731",
+        "79.20",
+        "76.21",
+        "74.42",
+        "9/10"
+      ]
+    ],
+    [
+      [
+        "Configuration",
+        "External correct",
+        "Acc. (%)",
+        "In-house correct",
+        "Full H minus control (pp)",
+        "Holm P"
+      ],
+      [
+        "RehabFM H",
+        "1004/1731",
+        "58.00",
+        "9/10",
+        "—",
+        "—"
+      ],
+      [
+        "No temporal H",
+        "1017/1731",
+        "58.75",
+        "9/10",
+        "-0.75",
+        "1"
+      ],
+      [
+        "No CE H",
+        "999/1731",
+        "57.71",
+        "9/10",
+        "+0.29",
+        "1"
+      ],
+      [
+        "CE only H",
+        "1007/1731",
+        "58.17",
+        "9/10",
+        "-0.17",
+        "1"
+      ],
+      [
+        "Concat H",
+        "973/1731",
+        "56.21",
+        "9/10",
+        "+1.79",
+        "1"
+      ],
+      [
+        "Attention H",
+        "993/1731",
+        "57.37",
+        "9/10",
+        "+0.64",
+        "1"
+      ],
+      [
+        "Task-local H",
+        "982/1731",
+        "56.73",
+        "9/10",
+        "+1.27",
+        "1"
+      ]
+    ],
+    [
+      [
+        "Model and features",
+        "External correct",
+        "Accuracy (%)",
+        "In-house correct"
+      ],
+      [
+        "RehabFM F",
+        "793 / 808 / 736",
+        "45.00 ± 2.19",
+        "8 / 9 / 9"
+      ],
+      [
+        "RehabFM H",
+        "1,004 / 1,013 / 1,025",
+        "58.58 ± 0.61",
+        "9 / 9 / 9"
+      ],
+      [
+        "No condition F",
+        "788 / 799 / 779",
+        "45.56 ± 0.58",
+        "9 / 9 / 9"
+      ],
+      [
+        "No condition H",
+        "997 / 968 / 1,005",
+        "57.19 ± 1.12",
+        "9 / 9 / 9"
+      ],
+      [
+        "Reference pooling F",
+        "789 / 813 / 796",
+        "46.18 ± 0.71",
+        "8 / 9 / 7"
+      ],
+      [
+        "Reference pooling H",
+        "995 / 993 / 999",
+        "57.52 ± 0.18",
+        "9 / 9 / 9"
+      ],
+      [
+        "CE only F",
+        "795 / 777 / 829",
+        "46.24 ± 1.53",
+        "9 / 9 / 9"
+      ],
+      [
+        "CE only H",
+        "1,007 / 979 / 1,013",
+        "57.75 ± 1.05",
+        "9 / 9 / 9"
+      ],
+      [
+        "Reference encoder F",
+        "675 / 660 / 665",
+        "38.51 ± 0.44",
+        "6 / 6 / 6"
+      ],
+      [
+        "Reference encoder H",
+        "1,000 / 1,011 / 993",
+        "57.85 ± 0.52",
+        "9 / 9 / 9"
+      ]
+    ]
+  ]
+}

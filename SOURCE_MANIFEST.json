@@ -5,7 +5,7 @@
       "file": "research_archive/audit_native_raw_cohort.py",
       "source_relative_path": "audit_native_raw_cohort.py",
       "source_sha256": "2985d573c5411744c5bdad5871dad68bab581794e484d2c5b7fa47f98a26376d",
-      "release_sha256": "98c76631626668c800e7c8c9dcf0e59c147f31eda5532a3087737477fc8ace7a",
+      "release_sha256": "f20f1bf3685a0aff0d4bb59dafae13c7c6979ee3e8d40447be64002d279e28e2",
       "changes": "Private workspace prefix replaced with placeholder; UTF-8/LF serialization."
     },
     {
@@ -19,7 +19,7 @@
       "file": "research_archive/framework_revision_20261031/audit_framework002.py",
       "source_relative_path": "framework_revision_20261031/audit_framework002.py",
       "source_sha256": "3da4c9aa700af47b0592e0618f3389fd4c572cf69f7f077fa03e37c6e31917a8",
-      "release_sha256": "3da4c9aa700af47b0592e0618f3389fd4c572cf69f7f077fa03e37c6e31917a8",
+      "release_sha256": "fa01e84365398238e85203239f90ce5cc0e50e0f46f6f637b294d1bb400ffdfd",
       "changes": "Private workspace prefix replaced with placeholder; UTF-8/LF serialization."
     },
     {
@@ -68,7 +68,7 @@
       "file": "research_archive/full_fixed_v1/fit_full_readouts002.py",
       "source_relative_path": "full_fixed_v1/fit_full_readouts002.py",
       "source_sha256": "4eb2effd5c55a78d5963d9fbe79cb7677f7d0312fd343885bfe51f738ff58273",
-      "release_sha256": "4eb2effd5c55a78d5963d9fbe79cb7677f7d0312fd343885bfe51f738ff58273",
+      "release_sha256": "aeba97a1ab0d468cdf3be1c1b24a74c8abdbbb0e7810300a7491febcbb60e145",
       "changes": "Private workspace prefix replaced with placeholder; UTF-8/LF serialization."
     },
     {
@@ -229,21 +229,21 @@
       "file": "src/rehabfm/train_downstream.py",
       "source_relative_path": "full_fixed_v1/vendor/rehabfm/train_downstream.py",
       "source_sha256": "b1296d68248becc470e298c5532e5686f6a6a3f4fd4a234240985badfaf94785",
-      "release_sha256": "b1296d68248becc470e298c5532e5686f6a6a3f4fd4a234240985badfaf94785",
+      "release_sha256": "272ffd119414fb0d3a0b18ac211915884d1d045bd7eb03870409d5dbc16ba521",
       "changes": "UTF-8/LF serialization only."
     },
     {
       "file": "src/rehabfm/train_pretrain.py",
       "source_relative_path": "full_fixed_v1/vendor/rehabfm/train_pretrain.py",
       "source_sha256": "e5d16a6620ab9048e01280cca40d43a4719f1af4fdfc7f076faee927b1ab05e5",
-      "release_sha256": "e5d16a6620ab9048e01280cca40d43a4719f1af4fdfc7f076faee927b1ab05e5",
+      "release_sha256": "aab60a6a597d6a4fb3bedbe0216a74801905fb0c972ceb667425b501490ca038",
       "changes": "UTF-8/LF serialization only."
     },
     {
       "file": "research_archive/sleepfm_controlled_20261031_v13/audit_predict.py",
       "source_relative_path": "sleepfm_controlled_20261031_v13/audit_predict.py",
       "source_sha256": "7239fe46eaaf1df1186379a8865a0ad3047a961da50a2f54b95e41eb97f88b3d",
-      "release_sha256": "7239fe46eaaf1df1186379a8865a0ad3047a961da50a2f54b95e41eb97f88b3d",
+      "release_sha256": "47b5a486f2d31c6ffa470b7bb446c6ebcac96751c4ea1e0854c81b3fb009a700",
       "changes": "Private workspace prefix replaced with placeholder; UTF-8/LF serialization."
     },
     {
@@ -320,14 +320,14 @@
       "file": "research_archive/sleepfm_controlled_20261031_v13/stable_clip.py",
       "source_relative_path": "sleepfm_controlled_20261031_v13/stable_clip.py",
       "source_sha256": "222ccf9bbf7276981c47a702c067c0cdf159134b759bc3b0243a1a8b3877d79f",
-      "release_sha256": "222ccf9bbf7276981c47a702c067c0cdf159134b759bc3b0243a1a8b3877d79f",
+      "release_sha256": "049d3d39e62e37ec27924995333bf713b1371c4bfd799bce283d24f0cccf48fb",
       "changes": "Private workspace prefix replaced with placeholder; UTF-8/LF serialization."
     },
     {
       "file": "research_archive/sleepfm_controlled_20261031_v13/structural_zero_policy.py",
       "source_relative_path": "sleepfm_controlled_20261031_v13/structural_zero_policy.py",
       "source_sha256": "529ae252749981a8971156a0cc9a7015d66ef14c427607d1566df90609318425",
-      "release_sha256": "529ae252749981a8971156a0cc9a7015d66ef14c427607d1566df90609318425",
+      "release_sha256": "9714a220e3d9a7174e08adad1b15abe455051d5f799326d049955bb11287e347",
       "changes": "Private workspace prefix replaced with placeholder; UTF-8/LF serialization."
     },
     {

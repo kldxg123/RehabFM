@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "rehabfm-research"
-version = "0.1.0"
+version = "0.1.1"
 description = "RehabFM multimodal rehabilitation classification research code"
 requires-python = ">=3.10"
 dependencies = ["torch>=2.5", "numpy>=1.24"]

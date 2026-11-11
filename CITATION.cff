@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the RehabFM research code and the associated manuscript when available."
 title: "RehabFM: A Multimodal Data Fusion Platform for Rehabilitation Classification"
 type: software
-version: 0.1.0
+version: 0.1.1
 date-released: 2026-11-11
 url: "https://github.com/kldxg123/RehabFM"
 authors:
